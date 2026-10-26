@@ -23,6 +23,8 @@
 | 真实标签页试用 | 点击候选，同步切换当前页 favicon、标题、选中状态和下载目标。 |
 | 深浅背景 | 切换整个对比页的背景，页首同时展示两种标签栏模拟。 |
 | 保存选择 | `?icon=02` 等网址参数保留当前方案，刷新可恢复。 |
+| 查看提示词 | 页头按钮打开原始提示词弹窗，保留用户输入的换行和标点，支持关闭按钮、Esc 和点击遮罩关闭。 |
+| 统一页头 | 左侧为「fly-favicon / 图标探索」，右侧 Star 链接带星星与轻微悬停反馈，可直接访问 GitHub 仓库。 |
 | 独立素材 | 下载 SVG；输出文件夹可整体复制并离线打开。 |
 
 图形由使用本 Skill 的 AI agent 结合网站内容设计，Python 脚本负责验证素材并组装对比页。生成器仅依赖 Python 标准库，产出的页面无需 npm、CDN、API 或构建工具。
@@ -84,7 +86,7 @@ python -m http.server 8000 --directory output/demo
 
 访问 <http://localhost:8000>。输出目录必须是新目录；重复运行时请换一个输出路径。Windows 出现终端编码问题时，可使用 `python -X utf8`。
 
-为自己的项目使用时，按 [清单格式](references/manifest.md) 准备 JSON 和 SVG，再替换 `--manifest` 路径。
+为自己的项目使用时，按 [清单格式](references/manifest.md) 准备 JSON 和 SVG，并在 `original_prompt` 中原样填写用户的设计请求，再替换 `--manifest` 路径。旧清单未提供原文时，提示词弹窗会明确显示「本页未记录原始提示词」。
 
 ## 仓库结构
 

@@ -23,6 +23,8 @@ By default, the skill designs **10 SVG favicons without letters or numbers**, ba
 | Real favicon switching | Selecting a candidate updates the page favicon, title, selected state, and download target. |
 | Light and dark themes | Switch the page background; the header also shows both tab-bar treatments. |
 | Restorable selection | URL parameters such as `?icon=02` preserve the selected candidate across reloads. |
+| Original prompt | A header button opens the user's exact design prompt, preserving line breaks and punctuation. Close it with the close button, Escape, or the backdrop. |
+| Consistent header | The left side reads “fly-favicon / 图标探索.” A GitHub Star link on the right includes a star icon and subtle hover feedback. |
 | Portable assets | Download individual SVGs or copy the entire output folder for offline use. |
 
 The AI agent using this skill designs the artwork from the website's context. The Python builder validates the assets and assembles the comparison page. It uses only the Python standard library; the generated page needs no npm packages, CDN, API, or build step.
@@ -85,7 +87,7 @@ python -m http.server 8000 --directory output/demo
 
 Visit <http://localhost:8000>. The output directory must be new; choose another output path for another run. On Windows, use `python -X utf8` if the terminal has encoding issues.
 
-For your own project, prepare JSON and SVGs using the [manifest format](references/manifest.md), then change the `--manifest` path.
+For your own project, prepare JSON and SVGs using the [manifest format](references/manifest.md), put the user's exact design request in `original_prompt`, and change the `--manifest` path. Older manifests without a recorded prompt show an explicit “Original prompt not recorded” message in the Chinese interface.
 
 ## Repository layout
 

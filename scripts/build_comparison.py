@@ -52,6 +52,9 @@ def read_manifest(path):
     if not isinstance(raw, dict):
         raise ValueError("Manifest must be a JSON object")
     brand = text_field(raw.get("brand"), "brand")
+    original_prompt = raw.get("original_prompt", "")
+    if not isinstance(original_prompt, str):
+        raise ValueError("original_prompt must be a string")
     allow_text = raw.get("allow_text", False)
     if not isinstance(allow_text, bool):
         raise ValueError("allow_text must be a boolean")
@@ -90,6 +93,7 @@ def read_manifest(path):
     prefix = re.sub(r"[^\w-]+", "-", brand).strip("-_") or "favicon"
     data = {
         "brand": brand,
+        "original_prompt": original_prompt,
         "headline": text_field(raw.get("headline", f"给「{brand}」一个标签页符号。"), "headline"),
         "intro": text_field(raw.get("intro", f"{count} 种不同的图形语言，点击即可在当前标签页试用。"), "intro"),
         "tab_title": text_field(raw.get("tab_title", brand), "tab_title"),
@@ -139,9 +143,8 @@ def render(data):
         "DATA": encoded,
         "FIRST_TITLE": escape(first["title"], quote=True),
         "FIRST_ID": escape(first["id"], quote=True),
-        "BRAND": escape(data["brand"]),
         "COUNT": str(len(data["directions"])),
-        "EDITION": f'{escape(data["edition"])} <span aria-hidden="true">·</span> ' if data["edition"] else "",
+        "ORIGINAL_PROMPT": escape(data["original_prompt"] if data["original_prompt"].strip() else "本页未记录原始提示词。"),
         "HEADLINE": escape(data["headline"]),
         "INTRO": escape(data["intro"]),
         "TAB_TITLE": escape(data["tab_title"]),

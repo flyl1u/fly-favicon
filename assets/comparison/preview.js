@@ -2,6 +2,27 @@
   const data = JSON.parse(document.querySelector('#comparison-data').textContent);
   const directions = data.directions;
   const gallery = document.querySelector('#directions');
+  const promptButton = document.querySelector('#view-prompt');
+  const promptDialog = document.querySelector('#prompt-dialog');
+  if (typeof data.original_prompt === 'string' && data.original_prompt.trim()) {
+    document.querySelector('#prompt-content').textContent = data.original_prompt;
+  }
+
+  promptButton.addEventListener('click', () => {
+    if (promptDialog.open) return;
+    promptDialog.showModal();
+    document.documentElement.classList.add('prompt-open');
+  });
+  document.querySelector('#close-prompt').addEventListener('click', () => { promptDialog.close(); });
+  promptDialog.addEventListener('close', () => {
+    document.documentElement.classList.remove('prompt-open');
+    promptButton.focus();
+  });
+  promptDialog.addEventListener('click', event => {
+    if (event.target !== promptDialog) return;
+    const bounds = promptDialog.getBoundingClientRect();
+    if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) promptDialog.close();
+  });
 
   function selectDirection(direction, { announce = true, updateUrl = true } = {}) {
     const path = `./${direction.icon}`;
