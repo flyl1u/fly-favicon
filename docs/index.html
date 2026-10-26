@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark light">
+    <meta name="theme-color" content="#151719">
+    <meta name="description" content="fly-island 标签页图标的十种无字母设计方向，可查看原始尺寸、深浅背景和真实标签页效果。">
+    <link id="preview-favicon" rel="icon" type="image/svg+xml" href="./icons/01-floating-capsule.svg">
+    <link rel="stylesheet" href="./preview.css">
+    <script src="./preview.js" defer></script>
+    <title>极简悬岛 · 图标探索</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="masthead">
+        <a class="wordmark" href="https://github.com/flyl1u/fly-favicon">fly-island<span> / 图标探索</span></a>
+        <span class="edition">2026.10 <span aria-hidden="true">·</span> 10 个方向</span>
+      </header>
+      <main>
+        <section class="intro" aria-labelledby="page-title">
+          <div>
+            <p class="eyebrow">网站标签页图标</p>
+            <h1 id="page-title">把「小岛」放进标签页。</h1>
+            <p class="lede">从产品轮廓到抽象意象，十种不同的图形语言。<br class="mobile-break">图标全部无字母，点击即可在当前标签页试用。</p>
+          </div>
+          <div class="theme-control" role="group" aria-label="对比页背景">
+            <button type="button" data-theme-choice="light" aria-pressed="false">浅色</button>
+            <button type="button" data-theme-choice="dark" aria-pressed="true">深色</button>
+          </div>
+        </section>
+        <section class="selection" aria-label="当前选中的图标">
+          <div class="selected-identity">
+            <img id="selected-icon" src="./icons/01-floating-capsule.svg" width="48" height="48" alt="极简悬岛">
+            <div><p class="selected-label">当前试用 <span id="selected-number">01</span></p><h2 id="selected-title">极简悬岛</h2></div>
+          </div>
+          <div class="browser-pair" aria-label="实际 16 像素的标签页预览">
+            <div class="browser-tab browser-tab--light"><img class="tab-icon" src="./icons/01-floating-capsule.svg" width="16" height="16" alt=""><span>fly-island · 常用的，就在上方</span><span class="tab-close" aria-hidden="true">×</span></div>
+            <div class="browser-tab browser-tab--dark"><img class="tab-icon" src="./icons/01-floating-capsule.svg" width="16" height="16" alt=""><span>fly-island · 常用的，就在上方</span><span class="tab-close" aria-hidden="true">×</span></div>
+          </div>
+          <a id="download-selected" class="download" href="./icons/01-floating-capsule.svg" download="fly-island-01-floating-capsule.svg">下载矢量图 <span aria-hidden="true">↗</span></a>
+        </section>
+        <p class="grid-caption"><span>选择一个方向</span><span>每组依次为 16 / 24 / 32 px，均按原尺寸显示</span></p>
+        <div id="directions" class="directions" aria-label="十种图标方案"></div>
+        <noscript><p>请启用 JavaScript 查看十种图标方案。也可直接打开本目录的 icons 文件夹查看全部 SVG。</p></noscript>
+        <p id="selection-status" class="visually-hidden" role="status" aria-live="polite"></p>
+      </main>
+      <footer><p>优先看 <strong>01</strong> 的产品关联、<strong>02</strong> 的负形识别，以及 <strong>07</strong> 的独立记忆点。</p><p>十个方向 · 纯图形 · 原生矢量</p></footer>
+    </div>
+  </body>
+</html>

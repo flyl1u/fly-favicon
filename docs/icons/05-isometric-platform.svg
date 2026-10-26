@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <title>等距浮台</title>
+  <rect x="1" y="1" width="62" height="62" rx="18" fill="#24282D"/>
+  <path d="M8 27L32 39L56 27L32 15L8 27Z" fill="#F3F1E9"/>
+  <path d="M8 27L32 39V47L8 35V27Z" fill="#939F9C"/>
+  <path d="M32 39L56 27V35L32 47V39Z" fill="#C5D2CB"/>
+  <path d="M19 48L32 54L45 48" stroke="#8FD6B3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark light">
+    <meta name="theme-color" content="#151719">
+    <meta name="description" content="{{META_DESCRIPTION}}">
+    <link id="preview-favicon" rel="icon" type="image/svg+xml" href="{{FIRST_ICON}}">
+    <link rel="stylesheet" href="./preview.css">
+    <script id="comparison-data" type="application/json">{{DATA}}</script>
+    <script src="./preview.js" defer></script>
+    <title>{{FIRST_TITLE}} · 图标探索</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="masthead">
+        <div class="wordmark">{{BRAND}}<span> / 图标探索</span></div>
+        <span class="edition">{{EDITION}}{{COUNT}} 个方向</span>
+      </header>
+      <main>
+        <section class="intro" aria-labelledby="page-title">
+          <div>
+            <p class="eyebrow">网站标签页图标</p>
+            <h1 id="page-title">{{HEADLINE}}</h1>
+            <p class="lede">{{INTRO}}</p>
+          </div>
+          <div class="theme-control" role="group" aria-label="对比页背景">
+            <button type="button" data-theme-choice="light" aria-pressed="false">浅色</button>
+            <button type="button" data-theme-choice="dark" aria-pressed="true">深色</button>
+          </div>
+        </section>
+        <section class="selection" aria-label="当前选中的图标">
+          <div class="selected-identity">
+            <img id="selected-icon" src="{{FIRST_ICON}}" width="48" height="48" alt="{{FIRST_TITLE}}">
+            <div><p class="selected-label">当前试用 <span id="selected-number">{{FIRST_ID}}</span></p><h2 id="selected-title">{{FIRST_TITLE}}</h2></div>
+          </div>
+          <div class="browser-pair" aria-label="实际 16 像素的标签页预览">
+            <div class="browser-tab browser-tab--light"><img class="tab-icon" src="{{FIRST_ICON}}" width="16" height="16" alt=""><span>{{TAB_TITLE}}</span><span class="tab-close" aria-hidden="true">×</span></div>
+            <div class="browser-tab browser-tab--dark"><img class="tab-icon" src="{{FIRST_ICON}}" width="16" height="16" alt=""><span>{{TAB_TITLE}}</span><span class="tab-close" aria-hidden="true">×</span></div>
+          </div>
+          <a id="download-selected" class="download" href="{{FIRST_ICON}}" download="{{DOWNLOAD_NAME}}">下载矢量图 <span aria-hidden="true">↗</span></a>
+        </section>
+        <p class="grid-caption"><span>选择一个方向</span><span>每组依次为 16 / 24 / 32 px，均按原尺寸显示</span></p>
+        <div id="directions" class="directions" aria-label="图标方案">{{CARDS}}</div>
+        <noscript><p class="lede">当前为静态对比；启用 JavaScript 可点选试用和切换背景。所有 SVG 可从 icons 文件夹单独取用。</p></noscript>
+        <p id="selection-status" class="visually-hidden" role="status" aria-live="polite"></p>
+      </main>
+      <footer><p>{{RECOMMENDATIONS}}</p><p>{{COUNT}} 个方向 · {{ICON_KIND}} · 原生矢量</p></footer>
+    </div>
+  </body>
+</html>

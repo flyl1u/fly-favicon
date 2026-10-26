@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none" shape-rendering="crispEdges">
+  <title>像素浮岛</title>
+  <rect x="4" y="4" width="56" height="56" rx="12" fill="#24282D" shape-rendering="geometricPrecision"/>
+  <path d="M8 28H16V24H24V20H40V24H48V28H56V36H48V40H16V36H8V28Z" fill="#B3D9C3"/>
+  <path d="M16 36H48V40H40V48H24V44H16V36Z" fill="#618D79"/>
+  <path d="M24 36H40V44H32V48H24V36Z" fill="#7BA98D"/>
+  <rect x="12" y="12" width="4" height="4" fill="#F4F3EB"/>
+  <rect x="48" y="16" width="4" height="4" fill="#F4F3EB"/>
+</svg>

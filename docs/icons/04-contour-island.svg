@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <title>等高线岛</title>
+  <rect x="1" y="1" width="62" height="62" rx="18" fill="#BBD6C7"/>
+  <g stroke="#234B40" stroke-width="3" stroke-linejoin="round">
+    <path d="M14 25C18 21 19 12 30 12C39 12 40 20 47 23C57 27 55 39 47 44C41 48 35 54 27 51C20 48 12 49 10 41C8 34 10 29 14 25Z"/>
+    <path d="M23 24C27 21 27 19 32 20C37 21 36 26 43 29C49 32 46 38 40 40C34 43 31 46 26 42C22 39 17 40 18 34C18 29 20 27 23 24Z"/>
+  </g>
+  <path d="M30 28C34 26 35 31 38 32C43 35 35 39 31 36C26 36 26 31 30 28Z" fill="#234B40"/>
+</svg>

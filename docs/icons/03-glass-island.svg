@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <title>雾面玻璃</title>
+  <defs>
+    <linearGradient id="surface" x1="7" y1="6" x2="55" y2="61" gradientUnits="userSpaceOnUse"><stop stop-color="#C3DDDE"/><stop offset=".5" stop-color="#AFB8D8"/><stop offset="1" stop-color="#8B80B2"/></linearGradient>
+    <linearGradient id="glass" x1="25" y1="22" x2="37" y2="42" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFF" stop-opacity=".92"/><stop offset="1" stop-color="#E7F2F7" stop-opacity=".3"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="62" height="62" rx="18" fill="url(#surface)"/>
+  <rect x="10" y="25" width="44" height="20" rx="10" transform="rotate(-25 32 35)" fill="#504A80" fill-opacity=".2"/>
+  <rect x="10" y="20" width="44" height="20" rx="10" transform="rotate(-25 32 30)" fill="url(#glass)" stroke="#F3FCFF" stroke-width="2"/>
+</svg>

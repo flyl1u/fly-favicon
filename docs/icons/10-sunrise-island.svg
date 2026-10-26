@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <title>日出海岛</title>
+  <rect x="1" y="1" width="62" height="62" rx="18" fill="#EFE3C9"/>
+  <circle cx="44" cy="21" r="8" fill="#C98152"/>
+  <path d="M8 43C16 42 17 32 24 31C32 30 32 38 39 38C45 38 48 43 56 43V46H8V43Z" fill="#354846"/>
+  <path d="M16 52H48" stroke="#354846" stroke-width="3" stroke-linecap="round"/>
+</svg>

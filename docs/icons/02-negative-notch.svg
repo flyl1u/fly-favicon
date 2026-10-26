@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <title>负形顶岛</title>
+  <rect x="1" y="1" width="62" height="62" rx="18" fill="#EDEDE7"/>
+  <rect x="9" y="12" width="46" height="40" rx="10" fill="#25282E"/>
+  <rect x="13" y="16" width="38" height="32" rx="6" fill="#EDEDE7"/>
+  <path d="M22 14H42V21C42 24.3 39.3 27 36 27H28C24.7 27 22 24.3 22 21V14Z" fill="#25282E"/>
+</svg>

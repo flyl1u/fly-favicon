@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <title>叠片收纳</title>
+  <rect x="1" y="1" width="62" height="62" rx="18" fill="#D5D0E1"/>
+  <rect x="9" y="24" width="33" height="30" rx="7" fill="#FAFAF4"/>
+  <rect x="15" y="18" width="33" height="30" rx="7" fill="#9A94B0"/>
+  <rect x="21" y="12" width="34" height="30" rx="7" fill="#30313D"/>
+  <circle cx="45" cy="22" r="4" fill="#A6D8B9"/>
+</svg>
