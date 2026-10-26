@@ -10,19 +10,19 @@
 
 为个人网站探索的 10 张头像：3 只猫、3 只狗、4 位人物，只画头部，放开网站配色与画风。下图展示**浅色模式**；此案例也已升级为当前交互模板。
 
-[在线预览该页面](https://flyl1u.github.io/fly-favicon/living-heads-01/)
+[在线预览](https://flyl1u.github.io/fly-favicon/living-heads-01/)
 
 [![头像案例的新版浅色交互页：橘猫、黑猫、三花、狗和人物头像，同屏比较十个候选](assets/readme/living-heads-light.png)](https://flyl1u.github.io/fly-favicon/living-heads-01/)
 
 原始提示词：
 
-> 使用fly-favicon再探索一遍，要活物，人，或者小猫，小狗，不要全身，要头，颜色和风格不要被网站风格局限
+> 使用fly-favicon为该项目（网站）探索10种标签页图标，要活物，人，或者小猫，小狗，不要全身，要头，颜色和风格不要被网站风格局限
 
 ### 02 / 从小岛到卫星
 
-为 [fly-island](https://island.flyliu.org/) 探索的十种图标
+为网站： [fly-island](https://island.flyliu.org/) 探索的十种图标
 
-[在线预览该页面](https://flyl1u.github.io/fly-favicon)
+[在线预览](https://flyl1u.github.io/fly-favicon)
 
 [![小岛案例的新版深色交互页：十个图标方向、标签页试用、原尺寸预览和 SVG 下载](assets/readme/island-dark.png)](https://flyl1u.github.io/fly-favicon)
 
