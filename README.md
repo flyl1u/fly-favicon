@@ -4,11 +4,13 @@
 
 为网站设计多种风格的 SVG 标签页图标，交付一个可以比较、点选试用和下载的交互对比页。
 
-**[打开在线演示 →](https://flyl1u.github.io/fly-favicon)** · [查看 Skill](SKILL.md) · [清单格式](references/manifest.md)
+**下图是为 [fly-island](https://github.com/flyl1u/fly-island) 制作的完整示例，点击图片进入同一个交互对比页，可以直接在浏览器标签页试用任意方案**
+
+**[打开在线演示 →](https://flyl1u.github.io/fly-favicon)**
 
 [![fly-favicon 交互对比页：十种无字母图标，支持深浅背景与原尺寸预览](docs/images/comparison.jpg)](https://flyl1u.github.io/fly-favicon)
 
-上图是为 [fly-island](https://github.com/flyl1u/fly-island) 制作的完整示例。点击图片进入同一个交互对比页，可以直接在浏览器标签页试用任意方案。
+[查看 Skill](SKILL.md) · [清单格式](references/manifest.md)
 
 ## 你会得到什么
 
