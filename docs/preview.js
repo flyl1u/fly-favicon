@@ -1,3 +1,13 @@
+const previewUrl = new URL(window.location.href);
+if (previewUrl.hostname === 'flyl1u.github.io' && previewUrl.pathname === '/fly-favicon/') {
+  // Keep relative assets inside the project after shortening the displayed URL.
+  const resourceBase = document.createElement('base');
+  resourceBase.href = new URL('.', previewUrl).href;
+  document.head.prepend(resourceBase);
+  previewUrl.pathname = '/fly-favicon';
+  try { window.history.replaceState(null, '', previewUrl); } catch { /* Restricted viewers can keep the original URL. */ }
+}
+
 const directions = [
   { id: '01', file: '01-floating-capsule', title: '极简悬岛', category: '极简实心 · 产品轮廓', description: '一枚胶囊加状态点，把悬浮工具的轮廓直接留下。' },
   { id: '02', file: '02-negative-notch', title: '负形顶岛', category: '黑白负形 · 桌面隐喻', description: '借屏幕上沿的内凹，表现小岛从顶部展开的位置。' },

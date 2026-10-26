@@ -4,9 +4,9 @@
 
 Design SVG favicons in distinct styles and deliver an interactive page where people can compare, try, and download them.
 
-**[Try the live demo →](https://flyl1u.github.io/fly-favicon/)** · [Read the skill](SKILL.md) · [Manifest format](references/manifest.md)
+**[Try the live demo →](https://flyl1u.github.io/fly-favicon)** · [Read the skill](SKILL.md) · [Manifest format](references/manifest.md)
 
-[![fly-favicon comparison page with ten symbol-only icons, light and dark backgrounds, and actual-size previews](docs/images/comparison.jpg)](https://flyl1u.github.io/fly-favicon/)
+[![fly-favicon comparison page with ten symbol-only icons, light and dark backgrounds, and actual-size previews](docs/images/comparison.jpg)](https://flyl1u.github.io/fly-favicon)
 
 This is the complete example created for [fly-island](https://github.com/flyl1u/fly-island). Click the image to open the interactive page and try any candidate as the actual browser-tab favicon. The demo interface is in Chinese.
 
