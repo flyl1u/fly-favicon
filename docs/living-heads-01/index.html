@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#f3f2ee">
+    <meta name="description" content="FLY 网页标签页图标交互对比">
+    <link id="preview-favicon" rel="icon" type="image/svg+xml" href="./icons/01.svg">
+    <link rel="stylesheet" href="./preview.css">
+    <script id="comparison-data" type="application/json">{"brand": "FLY", "original_prompt": "使用fly-favicon再探索一遍，要活物，人，或者小猫，小狗，不要全身，要头，颜色和风格不要被网站风格局限", "headline": "给标签页，一张有性格的脸。", "intro": "3 只猫、3 只狗、4 张人物头像。放开网站配色与画风，只画头部；点击试用，在 16px 里挑一个让你记住的面孔。", "tab_title": "FLY — flyliu is here", "edition": "头像探索 · 2026.10.26", "allow_text": false, "download_prefix": "FLY", "recommendations": [{"id": "01", "reason": "橘色、尖耳与圆脸组合直接，亲切且容易辨认"}, {"id": "04", "reason": "垂耳与奶油色口鼻很鲜明，温和的小狗气质"}, {"id": "07", "reason": "墨镜与荧光黄绿形成强记忆点，人物方向最利落"}], "directions": [{"id": "01", "title": "橘子猫", "category": "猫头 · 轮廓贴纸", "description": "饱满圆脸、三道额纹和奶油色嘴套，像贴在个人空间门口的小橘猫。", "icon": "icons/01.svg"}, {"id": "02", "title": "月光黑猫", "category": "猫头 · 极简负形", "description": "淡紫圆月里露出一张黑猫脸，只留荧光色的眼睛和一点小脾气。", "icon": "icons/02.svg"}, {"id": "03", "title": "像素三花", "category": "猫头 · 复古像素", "description": "把三花的深浅花块和直立耳朵拼成像素，给创作者空间一点游戏感。", "icon": "icons/03.svg"}, {"id": "04", "title": "奶油垂耳", "category": "狗头 · 柔软圆形", "description": "焦糖耳朵垂在奶油色脸颊旁，用一张安静的小狗脸迎接每次回来。", "icon": "icons/04.svg"}, {"id": "05", "title": "赤色柴柴", "category": "狗头 · 几何切面", "description": "尖耳、赤橙额头与宽宽的白嘴套，把柴犬的机灵感压进清楚的色块。", "icon": "icons/05.svg"}, {"id": "06", "title": "斑点搭子", "category": "狗头 · 黑白撞粉", "description": "一只黑耳朵配一圈黑眼斑，像总会探头来陪你做东西的斑点小狗。", "icon": "icons/06.svg"}, {"id": "07", "title": "墨镜朋友", "category": "人头 · 波普色块", "description": "黑色墨镜、蓬松短发与荧光黄绿底，把个人主页的主角画得轻松一点。", "icon": "icons/07.svg"}, {"id": "08", "title": "卷毛同学", "category": "人头 · 拼贴剪纸", "description": "大块卷发和暖棕肤色撞上薄荷绿，用不规则纸片拼出自在的表情。", "icon": "icons/08.svg"}, {"id": "09", "title": "侧脸一刻", "category": "人头 · 墨色剪影", "description": "用侧脸、短发和一抹朱红留下轮廓，给个人空间一个安静的观察者。", "icon": "icons/09.svg"}, {"id": "10", "title": "红帽少年", "category": "人头 · 彩色漫画", "description": "把红色棒球帽和眨眼表情留在标签页，带一点出门探索的少年气。", "icon": "icons/10.svg"}]}</script>
+    <script src="./preview.js" defer></script>
+    <title>橘子猫 · 图标探索</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="masthead">
+        <a class="wordmark" href="https://github.com/flyl1u/fly-favicon" target="_blank" rel="noopener noreferrer">fly-favicon<span> / 图标探索</span></a>
+        <a class="star-link" href="https://github.com/flyl1u/fly-favicon" target="_blank" rel="noopener noreferrer">
+          <span>觉得还不错？去点颗star</span>
+          <svg class="star-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.8 5.7 6.3.9-4.6 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L2.9 9.6l6.3-.9L12 3Z"/></svg>
+        </a>
+      </header>
+      <main>
+        <section class="intro" aria-labelledby="page-title">
+          <div>
+            <p class="eyebrow">网站标签页图标</p>
+            <div class="headline-row">
+              <h1 id="page-title">给标签页，一张有性格的脸。</h1>
+              <button id="view-prompt" class="prompt-trigger" type="button" aria-haspopup="dialog" aria-controls="prompt-dialog">查看提示词</button>
+            </div>
+            <p class="lede">3 只猫、3 只狗、4 张人物头像。放开网站配色与画风，只画头部；点击试用，在 16px 里挑一个让你记住的面孔。</p>
+          </div>
+          <div class="theme-control" role="group" aria-label="对比页背景">
+            <button type="button" data-theme-choice="light" aria-pressed="true">浅色</button>
+            <button type="button" data-theme-choice="dark" aria-pressed="false">深色</button>
+          </div>
+        </section>
+        <section class="selection" aria-label="当前选中的图标">
+          <div class="selected-identity">
+            <img id="selected-icon" src="./icons/01.svg" width="48" height="48" alt="橘子猫">
+            <div><p class="selected-label">当前试用 <span id="selected-number">01</span></p><h2 id="selected-title">橘子猫</h2></div>
+          </div>
+          <div class="browser-pair" aria-label="实际 16 像素的标签页预览">
+            <div class="browser-tab browser-tab--light"><img class="tab-icon" src="./icons/01.svg" width="16" height="16" alt=""><span>FLY — flyliu is here</span><span class="tab-close" aria-hidden="true">×</span></div>
+            <div class="browser-tab browser-tab--dark"><img class="tab-icon" src="./icons/01.svg" width="16" height="16" alt=""><span>FLY — flyliu is here</span><span class="tab-close" aria-hidden="true">×</span></div>
+          </div>
+          <a id="download-selected" class="download" href="./icons/01.svg" download="FLY-01.svg">下载矢量图 <span aria-hidden="true">↗</span></a>
+        </section>
+        <div id="directions" class="directions" aria-label="图标方案">
+          <button class="direction" type="button" data-id="01" aria-pressed="true" aria-label="试用 01 橘子猫：猫头 · 轮廓贴纸">
+            <span class="direction-meta"><span class="direction-number">01</span><span class="direction-state" aria-hidden="true">试用中</span></span>
+            <span class="artwork"><img src="./icons/01.svg" width="80" height="80" alt=""></span>
+            <span class="direction-title">橘子猫</span>
+            <span class="direction-category">猫头 · 轮廓贴纸</span>
+            <span class="direction-description">饱满圆脸、三道额纹和奶油色嘴套，像贴在个人空间门口的小橘猫。</span>
+            <span class="samples samples--light" aria-hidden="true"><img src="./icons/01.svg" width="16" height="16" alt=""><img src="./icons/01.svg" width="24" height="24" alt=""><img src="./icons/01.svg" width="32" height="32" alt=""></span><span class="samples samples--dark" aria-hidden="true"><img src="./icons/01.svg" width="16" height="16" alt=""><img src="./icons/01.svg" width="24" height="24" alt=""><img src="./icons/01.svg" width="32" height="32" alt=""></span>
+            <span class="sizes" aria-hidden="true"><span>16</span><span>24</span><span>32</span></span>
+          </button>
+          <button class="direction" type="button" data-id="02" aria-pressed="false" aria-label="试用 02 月光黑猫：猫头 · 极简负形">
+            <span class="direction-meta"><span class="direction-number">02</span><span class="direction-state" aria-hidden="true">试用中</span></span>
+            <span class="artwork"><img src="./icons/02.svg" width="80" height="80" alt=""></span>
+            <span class="direction-title">月光黑猫</span>
+            <span class="direction-category">猫头 · 极简负形</span>
+            <span class="direction-description">淡紫圆月里露出一张黑猫脸，只留荧光色的眼睛和一点小脾气。</span>
+            <span class="samples samples--light" aria-hidden="true"><img src="./icons/02.svg" width="16" height="16" alt=""><img src="./icons/02.svg" width="24" height="24" alt=""><img src="./icons/02.svg" width="32" height="32" alt=""></span><span class="samples samples--dark" aria-hidden="true"><img src="./icons/02.svg" width="16" height="16" alt=""><img src="./icons/02.svg" width="24" height="24" alt=""><img src="./icons/02.svg" width="32" height="32" alt=""></span>
+            <span class="sizes" aria-hidden="true"><span>16</span><span>24</span><span>32</span></span>
+          </button>
+          <button class="direction" type="button" data-id="03" aria-pressed="false" aria-label="试用 03 像素三花：猫头 · 复古像素">
+            <span class="direction-meta"><span class="direction-number">03</span><span class="direction-state" aria-hidden="true">试用中</span></span>
+            <span class="artwork"><img src="./icons/03.svg" width="80" height="80" alt=""></span>
+            <span class="direction-title">像素三花</span>
+            <span class="direction-category">猫头 · 复古像素</span>
+            <span class="direction-description">把三花的深浅花块和直立耳朵拼成像素，给创作者空间一点游戏感。</span>
+            <span class="samples samples--light" aria-hidden="true"><img src="./icons/03.svg" width="16" height="16" alt=""><img src="./icons/03.svg" width="24" height="24" alt=""><img src="./icons/03.svg" width="32" height="32" alt=""></span><span class="samples samples--dark" aria-hidden="true"><img src="./icons/03.svg" width="16" height="16" alt=""><img src="./icons/03.svg" width="24" height="24" alt=""><img src="./icons/03.svg" width="32" height="32" alt=""></span>
+            <span class="sizes" aria-hidden="true"><span>16</span><span>24</span><span>32</span></span>
+          </button>
+          <button class="direction" type="button" data-id="04" aria-pressed="false" aria-label="试用 04 奶油垂耳：狗头 · 柔软圆形">
+            <span class="direction-meta"><span class="direction-number">04</span><span class="direction-state" aria-hidden="true">试用中</span></span>
+            <span class="artwork"><img src="./icons/04.svg" width="80" height="80" alt=""></span>
+            <span class="direction-title">奶油垂耳</span>
+            <span class="direction-category">狗头 · 柔软圆形</span>
+            <span class="direction-description">焦糖耳朵垂在奶油色脸颊旁，用一张安静的小狗脸迎接每次回来。</span>
+            <span class="samples samples--light" aria-hidden="true"><img src="./icons/04.svg" width="16" height="16" alt=""><img src="./icons/04.svg" width="24" height="24" alt=""><img src="./icons/04.svg" width="32" height="32" alt=""></span><span class="samples samples--dark" aria-hidden="true"><img src="./icons/04.svg" width="16" height="16" alt=""><img src="./icons/04.svg" width="24" height="24" alt=""><img src="./icons/04.svg" width="32" height="32" alt=""></span>
+            <span class="sizes" aria-hidden="true"><span>16</span><span>24</span><span>32</span></span>
+          </button>
+          <button class="direction" type="button" data-id="05" aria-pressed="false" aria-label="试用 05 赤色柴柴：狗头 · 几何切面">
+            <span class="direction-meta"><span class="direction-number">05</span><span class="direction-state" aria-hidden="true">试用中</span></span>
+            <span class="artwork"><img src="./icons/05.svg" width="80" height="80" alt=""></span>
+            <span class="direction-title">赤色柴柴</span>
+            <span class="direction-category">狗头 · 几何切面</span>
+            <span class="direction-description">尖耳、赤橙额头与宽宽的白嘴套，把柴犬的机灵感压进清楚的色块。</span>
+            <span class="samples samples--light" aria-hidden="true"><img src="./icons/05.svg" width="16" height="16" alt=""><img src="./icons/05.svg" width="24" height="24" alt=""><img src="./icons/05.svg" width="32" height="32" alt=""></span><span class="samples samples--dark" aria-hidden="true"><img src="./icons/05.svg" width="16" height="16" alt=""><img src="./icons/05.svg" width="24" height="24" alt=""><img src="./icons/05.svg" width="32" height="32" alt=""></span>
+            <span class="sizes" aria-hidden="true"><span>16</span><span>24</span><span>32</span></span>
+          </button>
+          <button class="direction" type="button" data-id="06" aria-pressed="false" aria-label="试用 06 斑点搭子：狗头 · 黑白撞粉">
+            <span class="direction-meta"><span class="direction-number">06</span><span class="direction-state" aria-hidden="true">试用中</span></span>
+            <span class="artwork"><img src="./icons/06.svg" width="80" height="80" alt=""></span>
+            <span class="direction-title">斑点搭子</span>
+            <span class="direction-category">狗头 · 黑白撞粉</span>
+            <span class="direction-description">一只黑耳朵配一圈黑眼斑，像总会探头来陪你做东西的斑点小狗。</span>
+            <span class="samples samples--light" aria-hidden="true"><img src="./icons/06.svg" width="16" height="16" alt=""><img src="./icons/06.svg" width="24" height="24" alt=""><img src="./icons/06.svg" width="32" height="32" alt=""></span><span class="samples samples--dark" aria-hidden="true"><img src="./icons/06.svg" width="16" height="16" alt=""><img src="./icons/06.svg" width="24" height="24" alt=""><img src="./icons/06.svg" width="32" height="32" alt=""></span>
+            <span class="sizes" aria-hidden="true"><span>16</span><span>24</span><span>32</span></span>
+          </button>
+          <button class="direction" type="button" data-id="07" aria-pressed="false" aria-label="试用 07 墨镜朋友：人头 · 波普色块">
+            <span class="direction-meta"><span class="direction-number">07</span><span class="direction-state" aria-hidden="true">试用中</span></span>
+            <span class="artwork"><img src="./icons/07.svg" width="80" height="80" alt=""></span>
+            <span class="direction-title">墨镜朋友</span>
+            <span class="direction-category">人头 · 波普色块</span>
+            <span class="direction-description">黑色墨镜、蓬松短发与荧光黄绿底，把个人主页的主角画得轻松一点。</span>
+            <span class="samples samples--light" aria-hidden="true"><img src="./icons/07.svg" width="16" height="16" alt=""><img src="./icons/07.svg" width="24" height="24" alt=""><img src="./icons/07.svg" width="32" height="32" alt=""></span><span class="samples samples--dark" aria-hidden="true"><img src="./icons/07.svg" width="16" height="16" alt=""><img src="./icons/07.svg" width="24" height="24" alt=""><img src="./icons/07.svg" width="32" height="32" alt=""></span>
+            <span class="sizes" aria-hidden="true"><span>16</span><span>24</span><span>32</span></span>
+          </button>
+          <button class="direction" type="button" data-id="08" aria-pressed="false" aria-label="试用 08 卷毛同学：人头 · 拼贴剪纸">
+            <span class="direction-meta"><span class="direction-number">08</span><span class="direction-state" aria-hidden="true">试用中</span></span>
+            <span class="artwork"><img src="./icons/08.svg" width="80" height="80" alt=""></span>
+            <span class="direction-title">卷毛同学</span>
+            <span class="direction-category">人头 · 拼贴剪纸</span>
+            <span class="direction-description">大块卷发和暖棕肤色撞上薄荷绿，用不规则纸片拼出自在的表情。</span>
+            <span class="samples samples--light" aria-hidden="true"><img src="./icons/08.svg" width="16" height="16" alt=""><img src="./icons/08.svg" width="24" height="24" alt=""><img src="./icons/08.svg" width="32" height="32" alt=""></span><span class="samples samples--dark" aria-hidden="true"><img src="./icons/08.svg" width="16" height="16" alt=""><img src="./icons/08.svg" width="24" height="24" alt=""><img src="./icons/08.svg" width="32" height="32" alt=""></span>
+            <span class="sizes" aria-hidden="true"><span>16</span><span>24</span><span>32</span></span>
+          </button>
+          <button class="direction" type="button" data-id="09" aria-pressed="false" aria-label="试用 09 侧脸一刻：人头 · 墨色剪影">
+            <span class="direction-meta"><span class="direction-number">09</span><span class="direction-state" aria-hidden="true">试用中</span></span>
+            <span class="artwork"><img src="./icons/09.svg" width="80" height="80" alt=""></span>
+            <span class="direction-title">侧脸一刻</span>
+            <span class="direction-category">人头 · 墨色剪影</span>
+            <span class="direction-description">用侧脸、短发和一抹朱红留下轮廓，给个人空间一个安静的观察者。</span>
+            <span class="samples samples--light" aria-hidden="true"><img src="./icons/09.svg" width="16" height="16" alt=""><img src="./icons/09.svg" width="24" height="24" alt=""><img src="./icons/09.svg" width="32" height="32" alt=""></span><span class="samples samples--dark" aria-hidden="true"><img src="./icons/09.svg" width="16" height="16" alt=""><img src="./icons/09.svg" width="24" height="24" alt=""><img src="./icons/09.svg" width="32" height="32" alt=""></span>
+            <span class="sizes" aria-hidden="true"><span>16</span><span>24</span><span>32</span></span>
+          </button>
+          <button class="direction" type="button" data-id="10" aria-pressed="false" aria-label="试用 10 红帽少年：人头 · 彩色漫画">
+            <span class="direction-meta"><span class="direction-number">10</span><span class="direction-state" aria-hidden="true">试用中</span></span>
+            <span class="artwork"><img src="./icons/10.svg" width="80" height="80" alt=""></span>
+            <span class="direction-title">红帽少年</span>
+            <span class="direction-category">人头 · 彩色漫画</span>
+            <span class="direction-description">把红色棒球帽和眨眼表情留在标签页，带一点出门探索的少年气。</span>
+            <span class="samples samples--light" aria-hidden="true"><img src="./icons/10.svg" width="16" height="16" alt=""><img src="./icons/10.svg" width="24" height="24" alt=""><img src="./icons/10.svg" width="32" height="32" alt=""></span><span class="samples samples--dark" aria-hidden="true"><img src="./icons/10.svg" width="16" height="16" alt=""><img src="./icons/10.svg" width="24" height="24" alt=""><img src="./icons/10.svg" width="32" height="32" alt=""></span>
+            <span class="sizes" aria-hidden="true"><span>16</span><span>24</span><span>32</span></span>
+          </button></div>
+        <noscript><p class="lede">当前为静态对比；启用 JavaScript 可点选试用和切换背景。所有 SVG 可从 icons 文件夹单独取用。</p></noscript>
+        <p id="selection-status" class="visually-hidden" role="status" aria-live="polite"></p>
+      </main>
+      <footer><p><strong>01</strong>：橘色、尖耳与圆脸组合直接，亲切且容易辨认；<strong>04</strong>：垂耳与奶油色口鼻很鲜明，温和的小狗气质；<strong>07</strong>：墨镜与荧光黄绿形成强记忆点，人物方向最利落</p><p>10 个方向 · 纯图形 · 原生矢量</p></footer>
+    </div>
+    <dialog id="prompt-dialog" class="prompt-dialog" aria-labelledby="prompt-title">
+      <div class="prompt-heading">
+        <h2 id="prompt-title">原始提示词</h2>
+        <button id="close-prompt" class="prompt-close" type="button" aria-label="关闭提示词" autofocus>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg>
+        </button>
+      </div>
+      <pre class="prompt-text"><span id="prompt-content">使用fly-favicon再探索一遍，要活物，人，或者小猫，小狗，不要全身，要头，颜色和风格不要被网站风格局限</span></pre>
+    </dialog>
+  </body>
+</html>

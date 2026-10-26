@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <title>卷毛同学</title>
+  <circle cx="32" cy="32" r="31" fill="#6DE0CC"/>
+  <path d="M10 38Q0 33 7 22 3 10 16 9 23-1 33 5 46-1 52 12 65 14 59 25 65 36 54 40Z" fill="#52283F"/>
+  <path d="M17 31c-9-5-12 9-2 12Zm30 0c9-5 12 9 2 12Z" fill="#A95F47"/>
+  <path d="M16 25q0-15 16-15t16 15v16Q46 59 32 60 18 58 16 41Z" fill="#CD865F"/>
+  <path d="M12 23q-5-14 8-15 4-9 14-2 14-6 17 7 10 1 5 13l-9 3-7-9-9 6-8-5-7 10Z" fill="#52283F"/>
+  <path d="M23 35v4m18-4v4" stroke="#3B2731" stroke-width="4" stroke-linecap="round"/>
+  <path d="m29 45 7 0" stroke="#92523F" stroke-width="3" stroke-linecap="round"/>
+  <path d="M26 50q6 5 12-1" stroke="#FFF0D5" stroke-width="3.5" stroke-linecap="round"/>
+</svg>

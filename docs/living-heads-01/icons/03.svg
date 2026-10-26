@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none" shape-rendering="crispEdges">
+  <title>像素三花</title>
+  <path d="M8 4h16v8h16V4h16v12h4v32h-8v8h-8v4H20v-4h-8v-8H4V16h4Z" fill="#745771"/>
+  <path d="M12 12h8v8h24v-8h8v12h4v20h-8v8h-8v4H24v-4h-8v-8H8V24h4Z" fill="#FFF1D4"/>
+  <path d="M12 12h8v8h4v8H8v-4h4Z" fill="#6B5264"/>
+  <path d="M44 12h8v12h4v12H40V20h4Z" fill="#EF9856"/>
+  <path d="M20 32h4v8h-4Zm20 0h4v8h-4Z" fill="#382D3A"/>
+  <path d="M28 44h8v4h-8Z" fill="#D87683"/>
+</svg>

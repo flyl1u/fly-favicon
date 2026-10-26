@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <title>橘子猫</title>
+  <path d="M10 28 8 10Q7 4 13 8L25 17Q32 14 39 17L52 8Q58 4 56 11L54 28Q62 35 59 46C56 57 45 61 32 61S8 57 5 46Q2 35 10 28Z" fill="#FFB34D" stroke="#3A2924" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="m13 14 8 9-7 3Zm38 0-8 9 7 3Z" fill="#ED8477"/>
+  <path d="M26 19v7m6-8v8m6-7v7" stroke="#C7712F" stroke-width="4" stroke-linecap="round"/>
+  <path d="M13 45q8-9 19-1 11-8 19 1c2 7-8 13-19 13S11 52 13 45Z" fill="#FFF2D8"/>
+  <circle cx="21" cy="37" r="3" fill="#3A2924"/>
+  <circle cx="43" cy="37" r="3" fill="#3A2924"/>
+  <path d="M28 44h8l-4 5Z" fill="#3A2924"/>
+  <path d="M27 50q5 5 10 0" stroke="#3A2924" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

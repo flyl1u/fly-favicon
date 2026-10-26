@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <title>赤色柴柴</title>
+  <path d="m6 7 18 9 8-3 8 3 18-9-3 32-5 13-8 7H22l-8-7-5-13Z" fill="#D86732"/>
+  <path d="m11 14 10 7-9 9Zm42 0-10 7 9 9Z" fill="#883D34"/>
+  <path d="m24 16 8-3 8 3-8 21Z" fill="#F5A15A"/>
+  <path d="m9 35 12 3 5 6h12l5-6 12-3-4 14-9 8H22l-9-8Z" fill="#FFF0D2"/>
+  <path d="m16 25 8-1 2 4h-9Zm32 0-8-1-2 4h9Z" fill="#FFF0D2"/>
+  <circle cx="21" cy="33" r="2.75" fill="#352B2C"/>
+  <circle cx="43" cy="33" r="2.75" fill="#352B2C"/>
+  <path d="M27 43h10l-5 7Z" fill="#352B2C"/>
+</svg>

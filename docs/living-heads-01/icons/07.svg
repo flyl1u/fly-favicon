@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <title>墨镜朋友</title>
+  <rect x="1" y="1" width="62" height="62" rx="18" fill="#DDF66D"/>
+  <path d="M15 29c-10-4-10 13 0 13Zm34 0c10-4 10 13 0 13Z" fill="#F1A575"/>
+  <path d="M14 25c0-14 8-20 18-20s18 6 18 20v15c0 12-7 20-18 20S14 52 14 40Z" fill="#FFC69A"/>
+  <path d="M9 31V22Q7 7 22 8q5-9 15-2 17-5 19 14v12l-8-4-4-11-10 5-10-5-7 14Z" fill="#24252B"/>
+  <rect x="13" y="29" width="16" height="11" rx="4" fill="#24252B"/>
+  <rect x="35" y="29" width="16" height="11" rx="4" fill="#24252B"/>
+  <path d="M28 32h8" stroke="#24252B" stroke-width="4"/>
+  <path d="m18 32 5 0m17 0h5" stroke="#FCF8E8" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M26 48q6 5 12-1" stroke="#8C463D" stroke-width="3.5" stroke-linecap="round"/>
+</svg>

@@ -1,33 +1,47 @@
-# fly-favicon
+<p align="right"><strong>简体中文</strong> · <a href="README.en.md">English</a></p>
 
-**简体中文** | [English](README.en.md)
+![fly-favicon：10 种风格，放进标签页里试](assets/readme/hero-zh.svg)
 
-为网站设计多种风格的 SVG 标签页图标，交付一个可以比较、点选试用和下载的交互对比页。
+**给网站探索一个记得住的标签页图标。** 这个 Codex Skill 默认设计 10 种无字母、无数字的 SVG 候选，并交付可以比较、点击试用和下载的交互页。
 
-**下图是为 [fly-island](https://github.com/flyl1u/fly-island) 制作的完整示例，点击图片进入同一个交互对比页，可以直接在浏览器标签页试用任意方案**
+[试用小岛案例](https://flyl1u.github.io/fly-favicon) · [试用头像案例](https://flyl1u.github.io/fly-favicon/living-heads-01/) · [安装](#安装) · [Skill 说明](SKILL.md)
 
-**[打开在线演示 →](https://flyl1u.github.io/fly-favicon)**
+## 先看看效果
 
-[![fly-favicon 交互对比页：十种无字母图标，支持深浅背景与原尺寸预览](docs/images/comparison.jpg)](https://flyl1u.github.io/fly-favicon)
+### 01 / 从小岛到卫星
 
-[查看 Skill](SKILL.md) · [清单格式](references/manifest.md)
+为 [fly-island](https://github.com/flyl1u/fly-island) 制作的 10 个方向：产品轮廓、负形、玻璃、等高线、折纸、轨道等。下图展示**深色模式**，点击图片即可进入同一个交互页。
 
-## 你会得到什么
+[![小岛案例的新版深色交互页：十个图标方向、标签页试用、原尺寸预览和 SVG 下载](assets/readme/island-dark.png)](https://flyl1u.github.io/fly-favicon)
 
-默认根据网站主题设计 **10 种无字母、无数字的 SVG 图标**。不同方向使用不同的图形语言和核心意象，数量、配色和是否使用文字均可按要求调整。
+原始提示词：
 
-| 功能 | 体验 |
+> 使用fly-favicon，为该项目探索标签页图标
+
+### 02 / 猫、狗和有性格的脸
+
+为个人网站探索的 10 张头像：3 只猫、3 只狗、4 位人物，只画头部，放开网站配色与画风。下图展示**浅色模式**；此案例也已升级为当前交互模板。
+
+[![头像案例的新版浅色交互页：橘猫、黑猫、三花、狗和人物头像，同屏比较十个候选](assets/readme/living-heads-light.png)](https://flyl1u.github.io/fly-favicon/living-heads-01/)
+
+原始提示词：
+
+> 使用fly-favicon再探索一遍，要活物，人，或者小猫，小狗，不要全身，要头，颜色和风格不要被网站风格局限
+
+## 从设计到选定
+
+AI agent 先读取网站与产品背景，再设计有差异的图形；Python 生成器验证 SVG 并组装页面。你可以在真实标签页里判断哪个方案更容易辨认。
+
+| 你要判断什么 | 页面如何帮你 |
 | --- | --- |
-| 同屏比较 | 每个方向都有名称、设计说明和放大预览。 |
-| 原尺寸预览 | 每个图标都在浅底、深底上展示 16 / 24 / 32 CSS px 效果。 |
-| 真实标签页试用 | 点击候选，同步切换当前页 favicon、标题、选中状态和下载目标。 |
-| 深浅背景 | 默认浅色，可切换整个对比页的背景，页首同时展示两种标签栏模拟。 |
-| 保存选择 | `?icon=02` 等网址参数保留当前方案，刷新可恢复。 |
-| 查看提示词 | 主标题右侧按钮打开提示词弹窗，保留用户输入的换行和标点，支持关闭按钮、Esc 和点击遮罩关闭。 |
-| 统一页头 | 左侧为「fly-favicon / 图标探索」，右侧为清晰的 Star 链接，星星默认黄色描边、悬停填充，可直接访问 GitHub 仓库。 |
-| 独立素材 | 下载 SVG；输出文件夹可整体复制并离线打开。 |
+| 缩小后是否清楚 | 每个候选同时提供浅底、深底的 **16 / 24 / 32 CSS px** 原尺寸预览。 |
+| 放进浏览器是否合适 | 点击候选，立即更新当前页的 favicon、标题、选中状态与 SVG 下载目标。 |
+| 是否符合最初的要求 | 主标题旁的「查看提示词」保留用户原文，包括换行和标点。 |
+| 如何保留和带走结果 | `?icon=02` 等网址参数保存选择；单独下载 SVG，或整体复制页面文件夹离线打开。 |
 
-图形由使用本 Skill 的 AI agent 结合网站内容设计，Python 脚本负责验证素材并组装对比页。生成器仅依赖 Python 标准库，产出的页面无需 npm、CDN、API 或构建工具。
+页面默认浅色，可随时切换深色。左上角 **fly-favicon** 和右上角 Star 链接均可返回本仓库。
+
+生成器只依赖 **Python 标准库**；生成的页面不需要 npm、CDN、API 或构建步骤。数量、配色、主题和是否允许文字都可按需求调整，图标不局限于以上两个案例。
 
 ## 安装
 
@@ -45,62 +59,60 @@ git clone https://github.com/flyl1u/fly-favicon.git ~/.codex/skills/fly-favicon
 git clone https://github.com/flyl1u/fly-favicon.git "$env:USERPROFILE\.codex\skills\fly-favicon"
 ```
 
-如果设置了 `CODEX_HOME`，请把目标目录改为其下的 `skills/fly-favicon`。安装后，在能发现该 Skill 的 Codex 会话中使用 `$fly-favicon`。
+如果设置了 `CODEX_HOME`，使用其下的 `skills/fly-favicon` 目录。在已发现该 Skill 的 Codex 会话中，通过 `$fly-favicon` 调用。
 
-## 使用
+## 开始探索
 
-在网站仓库中直接提出需求，也可以提供网址、截图或产品概念：
+在网站仓库中提出需求，也可以提供网址、截图或产品概念：
 
 ```text
 使用 $fly-favicon，为当前网站设计 10 种无字母标签页图标，
 最终生成可点击试用的交互对比页。
 ```
 
+也可以指定新方向，或继续细化上轮结果：
+
 ```text
-使用 $fly-favicon，为一个阅读笔记网站设计 6 种图标。
-偏安静、简洁，尝试纸页、书签、星光等方向，最后给我对比页。
+使用 $fly-favicon，为阅读笔记网站设计 6 种图标。
+偏安静、简洁，尝试纸页、书签、星光等方向。
 ```
 
 ```text
-使用 $fly-favicon，继续细化上次的 02 和 07，
-保留两者的识别特征，重点改善 16px 下的清晰度。
+使用 $fly-favicon，细化上次的 02 和 07，
+保留识别特征，重点改善 16px 下的清晰度。
 ```
 
-Skill 会先理解网站和现有品牌，再设计图标、生成页面并检查效果。只要求设计或比较时，正式站点的图标会保留；要求落地某个明确方案时，再完成对应接入。
+Skill 会理解背景、设计候选、生成页面并检查效果。确定方案后，可以继续要求把选中的图标接入正式网站。
 
-## 单独运行生成器
+## 已有 SVG？直接生成对比页
 
-已有 SVG 和清单时，可以直接生成对比页。需要 Python 3.9 或更高版本。
-
-在仓库根目录运行下列命令，可用演示中的 10 个图标生成一份新的对比页：
+需要 **Python 3.9+**。在仓库根目录运行下面的命令，即可用第一套案例生成一份新页面：
 
 ```sh
 python scripts/build_comparison.py --manifest docs/manifest.json --output output/demo
 ```
 
-然后打开 `output/demo/index.html`，或启动本地服务：
+第二套案例使用 `docs/living-heads-01/manifest.json`。输出目录必须是新目录；再次生成时请换一个路径。
+
+打开 `output/demo/index.html` 即可离线使用，或启动本地服务：
 
 ```sh
 python -m http.server 8000 --directory output/demo
 ```
 
-访问 <http://localhost:8000>。输出目录必须是新目录；重复运行时请换一个输出路径。Windows 出现终端编码问题时，可使用 `python -X utf8`。
+然后访问 [localhost:8000](http://localhost:8000)。Windows 终端出现编码问题时，可使用 `python -X utf8`。
 
-为自己的项目使用时，按 [清单格式](references/manifest.md) 准备 JSON 和 SVG，并在 `original_prompt` 中原样填写用户的设计请求，再替换 `--manifest` 路径。旧清单未提供原文时，提示词弹窗会明确显示「本页未记录原始提示词」。
+制作自己的清单时，按 [清单格式](references/manifest.md) 准备 JSON 与 SVG，在 `original_prompt` 中原样填写用户的设计请求。旧清单未记录原文时，弹窗会显示「本页未记录原始提示词」。
 
-## 仓库结构
+## 维护入口
 
-```text
-fly-favicon/
-├── SKILL.md                   # Skill 的执行说明
-├── agents/openai.yaml         # Codex 展示与调用信息
-├── assets/comparison/         # 交互页 HTML / CSS / JS 模板
-├── scripts/build_comparison.py
-├── references/manifest.md     # 输入数据格式
-└── docs/                      # 在线演示、10 个 SVG、截图与示例清单
-```
-
-`docs/` 保留这次的 fly-island 展示；模板和生成器可用于其他网站，不会固定生成小岛主题。
+| 文件 | 用途 |
+| --- | --- |
+| [SKILL.md](SKILL.md) | Skill 执行流程与交付要求 |
+| [assets/comparison](assets/comparison) | 可复用 HTML / CSS / JS 模板 |
+| [scripts/build_comparison.py](scripts/build_comparison.py) | 标准库生成器与 SVG 验证 |
+| [references/manifest.md](references/manifest.md) | 清单字段与示例 |
+| [docs](docs) | 两套在线演示、SVG 与示例清单 |
 
 ## 许可
 

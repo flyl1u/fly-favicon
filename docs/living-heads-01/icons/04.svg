@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <title>奶油垂耳</title>
+  <circle cx="32" cy="32" r="31" fill="#287969"/>
+  <path d="M20 13C9 7 2 24 5 43c2 12 12 12 16 0l5-22Zm24 0c11-6 18 11 15 30-2 12-12 12-16 0l-5-22Z" fill="#B77B53"/>
+  <path d="M14 32c0-15 7-23 18-23s18 8 18 23v9c0 13-7 20-18 20S14 54 14 41Z" fill="#F6DDA8"/>
+  <ellipse cx="32" cy="46" rx="13" ry="11" fill="#FFF5DB"/>
+  <circle cx="23" cy="32" r="3.25" fill="#45302B"/>
+  <circle cx="41" cy="32" r="3.25" fill="#45302B"/>
+  <path d="M26 41q6-4 12 0c1 5-3 8-6 8s-7-3-6-8Z" fill="#45302B"/>
+  <path d="M32 48v5" stroke="#45302B" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
