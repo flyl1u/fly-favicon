@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="zh-CN" data-theme="dark">
+<html lang="zh-CN" data-theme="light">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="color-scheme" content="dark light">
-    <meta name="theme-color" content="#151719">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#f3f2ee">
     <meta name="description" content="{{META_DESCRIPTION}}">
     <link id="preview-favicon" rel="icon" type="image/svg+xml" href="{{FIRST_ICON}}">
     <link rel="stylesheet" href="./preview.css">
@@ -16,7 +16,6 @@
     <div class="page">
       <header class="masthead">
         <div class="wordmark">fly-favicon<span> / 图标探索</span></div>
-        <button id="view-prompt" class="prompt-trigger" type="button" aria-haspopup="dialog" aria-controls="prompt-dialog">查看提示词</button>
         <a class="star-link" href="https://github.com/flyl1u/fly-favicon" target="_blank" rel="noopener noreferrer">
           <span>觉得还不错？去点颗star</span>
           <svg class="star-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.8 5.7 6.3.9-4.6 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L2.9 9.6l6.3-.9L12 3Z"/></svg>
@@ -26,12 +25,15 @@
         <section class="intro" aria-labelledby="page-title">
           <div>
             <p class="eyebrow">网站标签页图标</p>
-            <h1 id="page-title">{{HEADLINE}}</h1>
+            <div class="headline-row">
+              <h1 id="page-title">{{HEADLINE}}</h1>
+              <button id="view-prompt" class="prompt-trigger" type="button" aria-haspopup="dialog" aria-controls="prompt-dialog">查看提示词</button>
+            </div>
             <p class="lede">{{INTRO}}</p>
           </div>
           <div class="theme-control" role="group" aria-label="对比页背景">
-            <button type="button" data-theme-choice="light" aria-pressed="false">浅色</button>
-            <button type="button" data-theme-choice="dark" aria-pressed="true">深色</button>
+            <button type="button" data-theme-choice="light" aria-pressed="true">浅色</button>
+            <button type="button" data-theme-choice="dark" aria-pressed="false">深色</button>
           </div>
         </section>
         <section class="selection" aria-label="当前选中的图标">

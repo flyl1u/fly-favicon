@@ -21,10 +21,10 @@ By default, the skill designs **10 SVG favicons without letters or numbers**, ba
 | Side-by-side comparison | Each direction has a name, a short rationale, and a large preview. |
 | Actual-size previews | Every icon appears at 16 / 24 / 32 CSS px on both light and dark backgrounds. |
 | Real favicon switching | Selecting a candidate updates the page favicon, title, selected state, and download target. |
-| Light and dark themes | Switch the page background; the header also shows both tab-bar treatments. |
+| Light and dark themes | Light by default, with a theme switcher; the header also shows both tab-bar treatments. |
 | Restorable selection | URL parameters such as `?icon=02` preserve the selected candidate across reloads. |
-| Original prompt | A header button opens the user's exact design prompt, preserving line breaks and punctuation. Close it with the close button, Escape, or the backdrop. |
-| Consistent header | The left side reads “fly-favicon / 图标探索.” A GitHub Star link on the right includes a star icon and subtle hover feedback. |
+| Original prompt | A button beside the main title opens the prompt, preserving line breaks and punctuation. Close it with the close button, Escape, or the backdrop. |
+| Consistent header | The left side reads “fly-favicon / 图标探索.” A prominent GitHub Star link on the right has a yellow outlined star that fills on hover. |
 | Portable assets | Download individual SVGs or copy the entire output folder for offline use. |
 
 The AI agent using this skill designs the artwork from the website's context. The Python builder validates the assets and assembles the comparison page. It uses only the Python standard library; the generated page needs no npm packages, CDN, API, or build step.
