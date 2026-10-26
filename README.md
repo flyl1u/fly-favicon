@@ -1,12 +1,12 @@
-<p align="right"><strong>简体中文</strong> · <a href="README.en.md">English</a></p>
+<p align="right"><strong>中文</strong> · <a href="README.en.md">English</a></p>
 
 ![fly-favicon：10 种风格，放进标签页里试](assets/readme/hero-zh.svg)
 
-**给网站探索一个记得住的标签页图标。** 这个 Codex Skill 默认设计 10 种无字母、无数字的 SVG 候选，并交付可以比较、点击试用和下载的交互页。
+**一句提示词，为你的网站标签页设计适配的多风格的图标** 默认设计 10 种无字母、无数字的 SVG 候选，并交付可以比较、点击试用和下载的交互页
 
 [试用小岛案例](https://flyl1u.github.io/fly-favicon) · [试用头像案例](https://flyl1u.github.io/fly-favicon/living-heads-01/) · [安装](#安装) · [Skill 说明](SKILL.md)
 
-## 先看看效果
+## 先看效果
 
 ### 01 / 从小岛到卫星
 
