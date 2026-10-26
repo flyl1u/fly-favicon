@@ -1,54 +1,227 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="hero-title hero-desc"><title id="hero-title">fly-favicon</title><desc id="hero-desc">fly-favicon：探索多种 SVG 图标，在浏览器标签页里比较。右侧展示真实的小岛、猫和卫星图标。</desc><rect width="1200" height="300" rx="24" fill="#f3f2ee" /><g font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" fill="#252a28"><text x="48" y="48" font-size="20" font-weight="600" letter-spacing="3" fill="#35634e">A CODEX SKILL</text><text x="44" y="137" font-size="84" font-weight="700" letter-spacing="-4">fly-favicon</text><text x="48" y="198" font-size="32" font-weight="500">10 种风格，放进标签页里试。</text><text x="48" y="254" font-size="20" fill="#5c6c67">SVG 图标 · 实际尺寸预览 · 交互对比</text></g><path d="M744 54V246" stroke="#d6dcd5" stroke-width="1" /><svg width="104" height="104" viewBox="0 0 64 64" fill="none" x="778" y="74">
-  <title>极简悬岛</title>
-  <rect x="1" y="1" width="62" height="62" rx="18" fill="#23262C" />
-  <rect x="11" y="21" width="42" height="22" rx="11" fill="#F4F5F1" />
-  <circle cx="22" cy="32" r="4" fill="#6ABF9B" />
-  <path d="M33 32H43" stroke="#23262C" stroke-width="4" stroke-linecap="round" />
-</svg><svg width="104" height="104" viewBox="0 0 64 64" fill="none" x="910" y="74">
-  <title>橘子猫</title>
-  <path d="M10 28 8 10Q7 4 13 8L25 17Q32 14 39 17L52 8Q58 4 56 11L54 28Q62 35 59 46C56 57 45 61 32 61S8 57 5 46Q2 35 10 28Z" fill="#FFB34D" stroke="#3A2924" stroke-width="3.5" stroke-linejoin="round" />
-  <path d="m13 14 8 9-7 3Zm38 0-8 9 7 3Z" fill="#ED8477" />
-  <path d="M26 19v7m6-8v8m6-7v7" stroke="#C7712F" stroke-width="4" stroke-linecap="round" />
-  <path d="M13 45q8-9 19-1 11-8 19 1c2 7-8 13-19 13S11 52 13 45Z" fill="#FFF2D8" />
-  <circle cx="21" cy="37" r="3" fill="#3A2924" />
-  <circle cx="43" cy="37" r="3" fill="#3A2924" />
-  <path d="M28 44h8l-4 5Z" fill="#3A2924" />
-  <path d="M27 50q5 5 10 0" stroke="#3A2924" stroke-width="2.5" stroke-linecap="round" />
-</svg><svg width="104" height="104" viewBox="0 0 64 64" fill="none" x="1042" y="74">
-  <title>环轨卫星</title>
-  <rect x="1" y="1" width="62" height="62" rx="18" fill="#25272E" />
-  <ellipse cx="32" cy="32" rx="25" ry="11" transform="rotate(-35 32 32)" stroke="#8DBCA9" stroke-width="3" />
-  <circle cx="32" cy="32" r="11" fill="#F1F2ED" />
-  <path d="M12 44C17 44 23 43 30 39" stroke="#8DBCA9" stroke-width="3" stroke-linecap="round" />
-  <circle cx="49" cy="17" r="5" fill="#A5E0C0" stroke="#25272E" stroke-width="2" />
-</svg><path d="M778 208H1146" stroke="#d6dcd5" stroke-width="1" /><svg width="16" height="16" viewBox="0 0 64 64" fill="none" x="814" y="223.0">
-  <title>橘子猫</title>
-  <path d="M10 28 8 10Q7 4 13 8L25 17Q32 14 39 17L52 8Q58 4 56 11L54 28Q62 35 59 46C56 57 45 61 32 61S8 57 5 46Q2 35 10 28Z" fill="#FFB34D" stroke="#3A2924" stroke-width="3.5" stroke-linejoin="round" />
-  <path d="m13 14 8 9-7 3Zm38 0-8 9 7 3Z" fill="#ED8477" />
-  <path d="M26 19v7m6-8v8m6-7v7" stroke="#C7712F" stroke-width="4" stroke-linecap="round" />
-  <path d="M13 45q8-9 19-1 11-8 19 1c2 7-8 13-19 13S11 52 13 45Z" fill="#FFF2D8" />
-  <circle cx="21" cy="37" r="3" fill="#3A2924" />
-  <circle cx="43" cy="37" r="3" fill="#3A2924" />
-  <path d="M28 44h8l-4 5Z" fill="#3A2924" />
-  <path d="M27 50q5 5 10 0" stroke="#3A2924" stroke-width="2.5" stroke-linecap="round" />
-</svg><svg width="24" height="24" viewBox="0 0 64 64" fill="none" x="946" y="219.0">
-  <title>橘子猫</title>
-  <path d="M10 28 8 10Q7 4 13 8L25 17Q32 14 39 17L52 8Q58 4 56 11L54 28Q62 35 59 46C56 57 45 61 32 61S8 57 5 46Q2 35 10 28Z" fill="#FFB34D" stroke="#3A2924" stroke-width="3.5" stroke-linejoin="round" />
-  <path d="m13 14 8 9-7 3Zm38 0-8 9 7 3Z" fill="#ED8477" />
-  <path d="M26 19v7m6-8v8m6-7v7" stroke="#C7712F" stroke-width="4" stroke-linecap="round" />
-  <path d="M13 45q8-9 19-1 11-8 19 1c2 7-8 13-19 13S11 52 13 45Z" fill="#FFF2D8" />
-  <circle cx="21" cy="37" r="3" fill="#3A2924" />
-  <circle cx="43" cy="37" r="3" fill="#3A2924" />
-  <path d="M28 44h8l-4 5Z" fill="#3A2924" />
-  <path d="M27 50q5 5 10 0" stroke="#3A2924" stroke-width="2.5" stroke-linecap="round" />
-</svg><svg width="32" height="32" viewBox="0 0 64 64" fill="none" x="1078" y="215.0">
-  <title>橘子猫</title>
-  <path d="M10 28 8 10Q7 4 13 8L25 17Q32 14 39 17L52 8Q58 4 56 11L54 28Q62 35 59 46C56 57 45 61 32 61S8 57 5 46Q2 35 10 28Z" fill="#FFB34D" stroke="#3A2924" stroke-width="3.5" stroke-linejoin="round" />
-  <path d="m13 14 8 9-7 3Zm38 0-8 9 7 3Z" fill="#ED8477" />
-  <path d="M26 19v7m6-8v8m6-7v7" stroke="#C7712F" stroke-width="4" stroke-linecap="round" />
-  <path d="M13 45q8-9 19-1 11-8 19 1c2 7-8 13-19 13S11 52 13 45Z" fill="#FFF2D8" />
-  <circle cx="21" cy="37" r="3" fill="#3A2924" />
-  <circle cx="43" cy="37" r="3" fill="#3A2924" />
-  <path d="M28 44h8l-4 5Z" fill="#3A2924" />
-  <path d="M27 50q5 5 10 0" stroke="#3A2924" stroke-width="2.5" stroke-linecap="round" />
-</svg></svg>
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="300"
+     viewBox="0 0 1200 300"
+     role="img"
+     aria-labelledby="hero-title hero-desc">
+
+  <title id="hero-title">fly-favicon</title>
+  <desc id="hero-desc">
+    fly-favicon：探索多种 SVG 图标，在浏览器标签页里比较。
+    右侧展示极简悬岛、橘子猫和环轨卫星图标。
+  </desc>
+
+  <!-- 背景 -->
+  <rect
+    width="1200"
+    height="300"
+    rx="24"
+    fill="#f3f2ee"
+  />
+
+  <!-- 左侧文字区域 -->
+  <g
+    font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif"
+    fill="#252a28"
+  >
+
+    <!-- 主标题 -->
+    <text
+      x="44"
+      y="130"
+      font-size="84"
+      font-weight="700"
+      letter-spacing="-4"
+    >fly-favicon</text>
+
+    <!-- 副标题 -->
+    <text
+      x="48"
+      y="195"
+      font-size="32"
+      font-weight="500"
+    >10 种风格，放进标签页里试。</text>
+
+    <!-- 功能描述 -->
+    <text
+      x="48"
+      y="246"
+      font-size="20"
+      fill="#5c6c67"
+    >SVG 图标 · 实际尺寸预览 · 交互对比</text>
+
+  </g>
+
+  <!-- 中间竖向分割线 -->
+  <path
+    d="M744 54V246"
+    stroke="#d6dcd5"
+    stroke-width="1"
+  />
+
+  <!-- 右侧图标区域：整体垂直居中 -->
+
+  <!-- 图标一：极简悬岛 -->
+  <svg
+    x="778"
+    y="98"
+    width="104"
+    height="104"
+    viewBox="0 0 64 64"
+    fill="none"
+  >
+    <title>极简悬岛</title>
+
+    <rect
+      x="1"
+      y="1"
+      width="62"
+      height="62"
+      rx="18"
+      fill="#23262C"
+    />
+
+    <rect
+      x="11"
+      y="21"
+      width="42"
+      height="22"
+      rx="11"
+      fill="#F4F5F1"
+    />
+
+    <circle
+      cx="22"
+      cy="32"
+      r="4"
+      fill="#6ABF9B"
+    />
+
+    <path
+      d="M33 32H43"
+      stroke="#23262C"
+      stroke-width="4"
+      stroke-linecap="round"
+    />
+  </svg>
+
+  <!-- 图标二：橘子猫 -->
+  <svg
+    x="910"
+    y="98"
+    width="104"
+    height="104"
+    viewBox="0 0 64 64"
+    fill="none"
+  >
+    <title>橘子猫</title>
+
+    <!-- 猫头轮廓 -->
+    <path
+      d="M10 28 8 10Q7 4 13 8L25 17Q32 14 39 17L52 8Q58 4 56 11L54 28Q62 35 59 46C56 57 45 61 32 61S8 57 5 46Q2 35 10 28Z"
+      fill="#FFB34D"
+      stroke="#3A2924"
+      stroke-width="3.5"
+      stroke-linejoin="round"
+    />
+
+    <!-- 耳朵 -->
+    <path
+      d="m13 14 8 9-7 3Zm38 0-8 9 7 3Z"
+      fill="#ED8477"
+    />
+
+    <!-- 额头花纹 -->
+    <path
+      d="M26 19v7m6-8v8m6-7v7"
+      stroke="#C7712F"
+      stroke-width="4"
+      stroke-linecap="round"
+    />
+
+    <!-- 脸颊 -->
+    <path
+      d="M13 45q8-9 19-1 11-8 19 1c2 7-8 13-19 13S11 52 13 45Z"
+      fill="#FFF2D8"
+    />
+
+    <!-- 眼睛 -->
+    <circle cx="21" cy="37" r="3" fill="#3A2924" />
+    <circle cx="43" cy="37" r="3" fill="#3A2924" />
+
+    <!-- 鼻子 -->
+    <path
+      d="M28 44h8l-4 5Z"
+      fill="#3A2924"
+    />
+
+    <!-- 嘴巴 -->
+    <path
+      d="M27 50q5 5 10 0"
+      stroke="#3A2924"
+      stroke-width="2.5"
+      stroke-linecap="round"
+    />
+  </svg>
+
+  <!-- 图标三：环轨卫星 -->
+  <svg
+    x="1042"
+    y="98"
+    width="104"
+    height="104"
+    viewBox="0 0 64 64"
+    fill="none"
+  >
+    <title>环轨卫星</title>
+
+    <!-- 背景 -->
+    <rect
+      x="1"
+      y="1"
+      width="62"
+      height="62"
+      rx="18"
+      fill="#25272E"
+    />
+
+    <!-- 星球轨道 -->
+    <ellipse
+      cx="32"
+      cy="32"
+      rx="25"
+      ry="11"
+      transform="rotate(-35 32 32)"
+      stroke="#8DBCA9"
+      stroke-width="3"
+    />
+
+    <!-- 星球 -->
+    <circle
+      cx="32"
+      cy="32"
+      r="11"
+      fill="#F1F2ED"
+    />
+
+    <!-- 轨道前景 -->
+    <path
+      d="M12 44C17 44 23 43 30 39"
+      stroke="#8DBCA9"
+      stroke-width="3"
+      stroke-linecap="round"
+    />
+
+    <!-- 小卫星 -->
+    <circle
+      cx="49"
+      cy="17"
+      r="5"
+      fill="#A5E0C0"
+      stroke="#25272E"
+      stroke-width="2"
+    />
+  </svg>
+
+</svg>
