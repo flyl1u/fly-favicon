@@ -1,3 +1,7 @@
 * text=auto eol=lf
 *.png binary
 *.jpg binary
+
+# Exclude comparison UI templates and published demos from language statistics.
+assets/comparison/** -linguist-detectable
+docs/** linguist-documentation
