@@ -49,8 +49,8 @@ Exact original prompt and follow-up requests:
 Copy this prompt into Codex:
 
 ```text
-Please install this Codex skill and confirm that installation succeeded:
-https://github.com/flyl1u/fly-favicon
+Please use the following command to install fly-favicon for Codex and confirm that installation succeeded:
+npx skills add flyl1u/fly-favicon
 ```
 
 ## How to use it after installation

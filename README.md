@@ -49,8 +49,8 @@
 将下面这段提示词复制给 Codex：
 
 ```text
-请帮我安装这个 Codex Skill，并确认安装成功：
-https://github.com/flyl1u/fly-favicon
+请使用下面的命令，为 Codex 安装 fly-favicon，并确认安装成功：
+npx skills add flyl1u/fly-favicon
 ```
 
 ## 安装后如何使用
