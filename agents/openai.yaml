@@ -1,4 +1,4 @@
 interface:
-  display_name: "网页标签页图标工作室"
+  display_name: "fly-favicon"
   short_description: "设计多种网页标签页图标，以可点选试用的离线交互对比页交付"
   default_prompt: "使用 $fly-favicon，为当前网站设计 10 种无字母标签页图标，并生成可点击试用的交互对比页。"
