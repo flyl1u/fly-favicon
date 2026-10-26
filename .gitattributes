@@ -2,6 +2,5 @@
 *.png binary
 *.jpg binary
 
-# Exclude comparison UI templates and published demos from language statistics.
-assets/comparison/** -linguist-detectable
-docs/** linguist-documentation
+# Exclude only the comparison stylesheet from language statistics.
+assets/comparison/preview.css -linguist-detectable
