@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <title>黑发墨印</title>
+  <path d="m8 2 45 1 9 7-1 44-7 8-45-1-7-7L3 10Z" fill="#EDE0BB"/>
+  <path d="m12 22 4-12 18-5 15 10 4 17-2 19-10 10-17-2-11-10-3-12Z" fill="#293B3C"/>
+  <path d="m18 26 11-8 16 8 3 16-4 12-10 4-13-7-5-11Z" fill="#F8E5BD"/>
+  <path d="m10 29-2-12 9 1-2-9 15 3 5-7 12 9 7 5-3 14-9-10-8 7-9-8-10 14Z" fill="#293B3C"/>
+  <path d="m21 16 6 3m11-6 5 5" stroke="#8D9C8B" stroke-width="3" stroke-linecap="square"/>
+  <path d="M23 39v5m16-4 5-1" stroke="#293B3C" stroke-width="4" stroke-linecap="square"/>
+  <path d="M28 52q6 3 11-1" stroke="#B56A43" stroke-width="3.5" stroke-linecap="square"/>
+</svg>

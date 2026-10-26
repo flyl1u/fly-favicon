@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <title>薄荷方块</title>
+  <path d="M10 25 38 18 55 28V49L38 61 10 49Z" fill="#F1C79C"/>
+  <path d="M38 28H55V49L38 61Z" fill="#C58E77"/>
+  <path d="M10 25 38 18 55 28 27 36Z" fill="#FFE0B7"/>
+  <path d="M7 14 15 11V6L29 3 36 8 44 5 56 12V31L38 38 7 29Z" fill="#438B77"/>
+  <path d="M7 14 15 11V6L29 3 36 8 44 5 56 12 34 23 24 18 17 22Z" fill="#A2D6AE"/>
+  <path d="M34 23 56 12V31L38 38 38 28Z" fill="#26645F"/>
+  <path d="M10 28 18 30V39L10 36Zm28 4 8-3v8l-8 5Z" fill="#26645F"/>
+  <path d="M19 39h4v7h-4Zm11 1h5v4h-5Z" fill="#3B4654"/>
+  <path d="m21 50 10 2v4l-10-2Z" fill="#A95661"/>
+</svg>

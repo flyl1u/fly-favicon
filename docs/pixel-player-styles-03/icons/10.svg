@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none" shape-rendering="crispEdges">
+  <title>像素玩家</title>
+  <path d="M20 4h24v4h8v12h8v12h-4v12h-8v8h-4v8H24v-4h-8V44H8V28h4V12h8Z" fill="#4D5274"/>
+  <path d="M16 28h36v12h-8v12h-4v4H28v-4h-8V40h-4Z" fill="#FFD3A0"/>
+  <path d="M12 32h4v8h-4Zm40 0h4v8h-4Z" fill="#EFAB82"/>
+  <path d="M20 8h24v4h4v12H16V12h4Z" fill="#F36A5B"/>
+  <path d="M12 24h44v4H12Z" fill="#BE474F"/>
+  <path d="M16 28h8v4h-4v4h-4Zm28 0h8v8h-4v-4h-4Z" fill="#4D5274"/>
+  <path d="M24 36h4v8h-4Zm16 0h8v4h-8Z" fill="#4D5274"/>
+  <path d="M28 48h12v4H28Z" fill="#AC5B5D"/>
+</svg>

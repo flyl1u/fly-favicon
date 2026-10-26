@@ -30,6 +30,23 @@
 
 > 使用fly-favicon，为该项目探索标签页图标
 
+### 03 / 像素玩家的十种画风
+
+从像素玩家出发，探索像素、体素、搪胶、漫画、霓虹等 9 种新画风，再加入原版红帽少年，共 10 个头部图标。
+
+[在线预览](https://flyl1u.github.io/fly-favicon/pixel-player-styles-03/)
+
+[![像素玩家的浅色交互对比页：十种头像画风，每行五个，支持标签页试用、原尺寸预览与 SVG 下载](assets/readme/pixel-player-light.png)](https://flyl1u.github.io/fly-favicon/pixel-player-styles-03/)
+
+原始提示词与补充要求：
+
+```text
+像素玩家不错，在此基础上探索9种不同风格的图标，使用fly-favicon
+你这全是红色帽子 大哥
+把之前的红帽少年也加进去 一共十个
+一行五个哦
+```
+
 ## 如何安装该 Skill
 
 将下面这段提示词复制给 Codex：

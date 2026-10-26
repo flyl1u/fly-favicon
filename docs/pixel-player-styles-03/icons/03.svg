@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <title>葡萄软糖</title>
+  <defs>
+    <linearGradient id="skin" x1="18" y1="28" x2="43" y2="60" gradientUnits="userSpaceOnUse"><stop stop-color="#FFE5BA"/><stop offset="1" stop-color="#EFA77F"/></linearGradient>
+    <linearGradient id="hat" x1="15" y1="9" x2="48" y2="31" gradientUnits="userSpaceOnUse"><stop stop-color="#C2ACF1"/><stop offset=".5" stop-color="#9B83D8"/><stop offset="1" stop-color="#7159AA"/></linearGradient>
+  </defs>
+  <path d="M13 33C2 30 2 46 14 46m36-13c11-3 11 13-1 13" fill="#E99B7D"/>
+  <path d="M12 29c0-12 8-20 20-20s20 8 20 20v12c0 12-8 20-20 20s-20-8-20-20Z" fill="url(#skin)"/>
+  <path d="M12 31h10l-9 10Zm40 0H42l9 10Z" fill="#5C4659"/>
+  <circle cx="33" cy="8" r="7" fill="#C1ACED"/>
+  <path d="M11 28V23C11 11 20 7 32 7s21 6 21 18v4Z" fill="url(#hat)"/>
+  <path d="M20 19q5-6 12-6" stroke="#E2D6FF" stroke-width="4" stroke-linecap="round"/>
+  <rect x="8" y="25" width="48" height="10" rx="5" fill="#8B70C5"/>
+  <path d="M16 29h31" stroke="#B29BE3" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="23" cy="44" rx="3" ry="3.5" fill="#664859"/>
+  <path d="m38 44 4-2 3 2" stroke="#664859" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M27 54q5 4 10-1" stroke="#B96769" stroke-width="3.5" stroke-linecap="round"/>
+</svg>

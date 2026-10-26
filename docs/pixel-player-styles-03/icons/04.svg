@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <title>炸毛贴纸</title>
+  <path d="M13 30c-11-2-9 16 1 16m36-16c11-2 9 16-1 16" fill="#F4BC8D" stroke="#342D38" stroke-width="3.5"/>
+  <path d="M13 26q0-15 19-15t19 15v14c0 13-9 21-19 21s-19-8-19-21Z" fill="#FFD8AE" stroke="#342D38" stroke-width="4"/>
+  <path d="m11 34-4-13 6-1-3-11 12 4 6-10 7 8 12-5 1 10 10 2-5 17-9-10-10 6-9-7-9 12Z" fill="#F1B84F" stroke="#342D38" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m20 17 7-4m13 3 5-3" stroke="#FFE6A8" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="23" cy="41" r="3.25" fill="#342D38"/>
+  <path d="m37 41 5-3 4 2" stroke="#342D38" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M26 51q7 8 14-2" stroke="#A5554E" stroke-width="4" stroke-linecap="round"/>
+</svg>

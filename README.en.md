@@ -8,27 +8,44 @@
 
 ### 01 / Cats, dogs, and faces with character
 
-Ten head portraits explored for a personal website: three cats, three dogs, and four people, with freedom to move beyond the site's palette and style. The screenshot shows **light mode**. This example also uses the current comparison template.
+Ten head portraits explored for a personal website: three cats, three dogs, and four people, with freedom to move beyond the site's palette and style.
 
-[Preview this page online](https://flyl1u.github.io/fly-favicon/living-heads-01/)
+[Live preview](https://flyl1u.github.io/fly-favicon/living-heads-01/)
 
 [![Updated head-portrait comparison page in light mode: ten cat, dog, and human candidates displayed together](assets/readme/living-heads-light.png)](https://flyl1u.github.io/fly-favicon/living-heads-01/)
 
 Exact original prompt:
 
-> 使用fly-favicon再探索一遍，要活物，人，或者小猫，小狗，不要全身，要头，颜色和风格不要被网站风格局限
+> 使用fly-favicon为该项目（网站）探索10种标签页图标，要活物，人，或者小猫，小狗，不要全身，要头，颜色和风格不要被网站风格局限
 
 ### 02 / From islands to orbits
 
 Ten favicon designs explored for [fly-island](https://island.flyliu.org/).
 
-[Preview this page online](https://flyl1u.github.io/fly-favicon)
+[Live preview](https://flyl1u.github.io/fly-favicon)
 
 [![Updated island comparison page in dark mode: ten directions, live favicon switching, actual-size previews, and SVG downloads](assets/readme/island-dark.png)](https://flyl1u.github.io/fly-favicon)
 
 Exact original prompt:
 
 > 使用fly-favicon，为该项目探索标签页图标
+
+### 03 / Ten takes on the pixel player
+
+Nine new head-icon styles explore pixel art, voxels, vinyl toys, comics, neon, and more, alongside the original red-cap player for a total of ten.
+
+[Live preview](https://flyl1u.github.io/fly-favicon/pixel-player-styles-03/)
+
+[![Pixel-player comparison page in light mode: ten head-icon styles in two rows of five, with live favicon switching, actual-size previews, and SVG downloads](assets/readme/pixel-player-light.png)](https://flyl1u.github.io/fly-favicon/pixel-player-styles-03/)
+
+Exact original prompt and follow-up requests:
+
+```text
+像素玩家不错，在此基础上探索9种不同风格的图标，使用fly-favicon
+你这全是红色帽子 大哥
+把之前的红帽少年也加进去 一共十个
+一行五个哦
+```
 
 ## How to install the skill
 

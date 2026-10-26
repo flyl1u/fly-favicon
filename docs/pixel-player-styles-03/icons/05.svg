@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <title>耳机夜游</title>
+  <rect x="1" y="1" width="62" height="62" rx="18" fill="#25233E"/>
+  <path d="M15 30v12c0 11 6 17 17 17s17-6 17-17V30" stroke="#72E6D9" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M9 36V24C9 11 18 5 32 5s23 7 23 21v10" stroke="#B59CFF" stroke-width="5" stroke-linecap="round"/>
+  <path d="m16 28 2-13 8 4 7-8 8 9 8-3-1 14-10-7-7 6-7-7Z" fill="#AC91EB"/>
+  <rect x="6" y="28" width="9" height="18" rx="4.5" fill="#6FE0D5"/>
+  <rect x="49" y="28" width="9" height="18" rx="4.5" fill="#6FE0D5"/>
+  <path d="M24 38v5m15-3 5-1" stroke="#DFF2A3" stroke-width="4" stroke-linecap="round"/>
+  <path d="M27 52q5 4 11-1" stroke="#DFF2A3" stroke-width="4" stroke-linecap="round"/>
+</svg>
