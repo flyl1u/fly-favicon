@@ -25,10 +25,7 @@
         <section class="intro" aria-labelledby="page-title">
           <div>
             <p class="eyebrow">网站标签页图标</p>
-            <div class="headline-row">
-              <h1 id="page-title">{{HEADLINE}}</h1>
-              <button id="view-prompt" class="prompt-trigger" type="button" aria-haspopup="dialog" aria-controls="prompt-dialog">查看提示词</button>
-            </div>
+            <h1 id="page-title">{{HEADLINE}}</h1>
             <p class="lede">{{INTRO}}</p>
           </div>
           <div class="theme-control" role="group" aria-label="对比页背景">
@@ -45,7 +42,10 @@
             <div class="browser-tab browser-tab--light"><img class="tab-icon" src="{{FIRST_ICON}}" width="16" height="16" alt=""><span>{{TAB_TITLE}}</span><span class="tab-close" aria-hidden="true">×</span></div>
             <div class="browser-tab browser-tab--dark"><img class="tab-icon" src="{{FIRST_ICON}}" width="16" height="16" alt=""><span>{{TAB_TITLE}}</span><span class="tab-close" aria-hidden="true">×</span></div>
           </div>
-          <a id="download-selected" class="download" href="{{FIRST_ICON}}" download="{{DOWNLOAD_NAME}}">下载矢量图 <span aria-hidden="true">↗</span></a>
+          <div class="selection-actions">
+            <button id="view-prompt" class="prompt-trigger" type="button" aria-haspopup="dialog" aria-controls="prompt-dialog">查看提示词</button>
+            <a id="download-selected" class="download" href="{{FIRST_ICON}}" download="{{DOWNLOAD_NAME}}">下载矢量图 <span aria-hidden="true">↗</span></a>
+          </div>
         </section>
         <div id="directions" class="directions" aria-label="图标方案">{{CARDS}}</div>
         <noscript><p class="lede">当前为静态对比；启用 JavaScript 可点选试用和切换背景。所有 SVG 可从 icons 文件夹单独取用。</p></noscript>

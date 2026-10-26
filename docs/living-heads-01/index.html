@@ -25,10 +25,7 @@
         <section class="intro" aria-labelledby="page-title">
           <div>
             <p class="eyebrow">网站标签页图标</p>
-            <div class="headline-row">
-              <h1 id="page-title">给标签页，一张有性格的脸。</h1>
-              <button id="view-prompt" class="prompt-trigger" type="button" aria-haspopup="dialog" aria-controls="prompt-dialog">查看提示词</button>
-            </div>
+            <h1 id="page-title">给标签页，一张有性格的脸。</h1>
             <p class="lede">3 只猫、3 只狗、4 张人物头像。放开网站配色与画风，只画头部；点击试用，在 16px 里挑一个让你记住的面孔。</p>
           </div>
           <div class="theme-control" role="group" aria-label="对比页背景">
@@ -45,7 +42,10 @@
             <div class="browser-tab browser-tab--light"><img class="tab-icon" src="./icons/01.svg" width="16" height="16" alt=""><span>FLY — flyliu is here</span><span class="tab-close" aria-hidden="true">×</span></div>
             <div class="browser-tab browser-tab--dark"><img class="tab-icon" src="./icons/01.svg" width="16" height="16" alt=""><span>FLY — flyliu is here</span><span class="tab-close" aria-hidden="true">×</span></div>
           </div>
-          <a id="download-selected" class="download" href="./icons/01.svg" download="FLY-01.svg">下载矢量图 <span aria-hidden="true">↗</span></a>
+          <div class="selection-actions">
+            <button id="view-prompt" class="prompt-trigger" type="button" aria-haspopup="dialog" aria-controls="prompt-dialog">查看提示词</button>
+            <a id="download-selected" class="download" href="./icons/01.svg" download="FLY-01.svg">下载矢量图 <span aria-hidden="true">↗</span></a>
+          </div>
         </section>
         <div id="directions" class="directions" aria-label="图标方案">
           <button class="direction" type="button" data-id="01" aria-pressed="true" aria-label="试用 01 橘子猫：猫头 · 轮廓贴纸">
