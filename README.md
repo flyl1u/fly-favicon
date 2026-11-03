@@ -1,6 +1,6 @@
 <p align="right"><strong>中文</strong> · <a href="README.en.md">English</a></p>
 
-![fly-favicon：10 种风格，放进标签页里试](assets/readme/hero-zh.svg)
+![fly-favicon：探索十种 SVG 图标，原尺寸比较，在标签页中试用并下载](assets/readme/hero-zh.svg)
 
 **一句提示词，为你的网站标签页设计适配的多风格的图标** 默认设计 10 种无字母、无数字的 SVG 候选，并交付可以比较、点击试用和下载的交互页
 

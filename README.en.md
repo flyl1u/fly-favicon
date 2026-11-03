@@ -1,6 +1,6 @@
 <p align="right"><a href="README.md">中文</a> · <strong>English</strong></p>
 
-![fly-favicon: ten directions, ready to try in your tab](assets/readme/hero-en.svg)
+![fly-favicon: compare ten SVG styles, try a favicon in your tab, and download it](assets/readme/hero-en.svg)
 
 **One prompt to explore favicon styles that fit your website.** By default, the skill designs 10 SVG candidates without letters or numbers and delivers an interactive page to compare, try, and download them.
 

@@ -1,0 +1,59 @@
+{
+  "schema": "fly-readme.build/v1",
+  "renderer": "browser",
+  "formats": [
+    "svg",
+    "html",
+    "png"
+  ],
+  "warnings": [],
+  "banners": [
+    {
+      "id": "hero-zh",
+      "width": 1680,
+      "height": 640,
+      "fonts": [
+        "KaiTi, STKaiti, Kaiti SC, Noto Serif CJK SC, serif",
+        "Comic Sans MS, Segoe Print, Bradley Hand, cursive"
+      ],
+      "fontMetricsChecked": true,
+      "imageChecks": [
+        {
+          "width": 980,
+          "loaded": true,
+          "overflow": false
+        },
+        {
+          "width": 358,
+          "loaded": true,
+          "overflow": false
+        }
+      ],
+      "externalRequests": 0,
+      "svgSha256": "58852a2dffda5aa307909d1eb34062f5552051eb277891f14ee8bb8a95071897"
+    },
+    {
+      "id": "hero-en",
+      "width": 1680,
+      "height": 640,
+      "fonts": [
+        "Comic Sans MS, Segoe Print, Bradley Hand, cursive"
+      ],
+      "fontMetricsChecked": true,
+      "imageChecks": [
+        {
+          "width": 980,
+          "loaded": true,
+          "overflow": false
+        },
+        {
+          "width": 358,
+          "loaded": true,
+          "overflow": false
+        }
+      ],
+      "externalRequests": 0,
+      "svgSha256": "997d0f61c8a39bf257964b525de9e46b21c78738fd8d619cb1bff5523238ed38"
+    }
+  ]
+}
