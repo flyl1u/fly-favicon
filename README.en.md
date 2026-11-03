@@ -24,7 +24,7 @@ Ten favicon designs explored for [fly-island](https://island.flyliu.org/).
 
 [Live preview](https://flyl1u.github.io/fly-favicon)
 
-[![Updated island comparison page in dark mode: ten directions, live favicon switching, actual-size previews, and SVG downloads](assets/readme/island-dark.png)](https://flyl1u.github.io/fly-favicon)
+[![Island comparison page on a warm light background: ten directions, live favicon switching, actual-size previews, and SVG downloads](assets/readme/island-light.png)](https://flyl1u.github.io/fly-favicon)
 
 Exact original prompt:
 

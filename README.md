@@ -24,7 +24,7 @@
 
 [在线预览](https://flyl1u.github.io/fly-favicon)
 
-[![小岛案例的新版深色交互页：十个图标方向、标签页试用、原尺寸预览和 SVG 下载](assets/readme/island-dark.png)](https://flyl1u.github.io/fly-favicon)
+[![小岛案例的暖色浅底交互页：十个图标方向、标签页试用、原尺寸预览和 SVG 下载](assets/readme/island-light.png)](https://flyl1u.github.io/fly-favicon)
 
 原始提示词：
 
