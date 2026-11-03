@@ -13,7 +13,6 @@
       "width": 1680,
       "height": 640,
       "fonts": [
-        "KaiTi, STKaiti, Kaiti SC, Noto Serif CJK SC, serif",
         "Comic Sans MS, Segoe Print, Bradley Hand, cursive"
       ],
       "fontMetricsChecked": true,
@@ -30,7 +29,7 @@
         }
       ],
       "externalRequests": 0,
-      "svgSha256": "58852a2dffda5aa307909d1eb34062f5552051eb277891f14ee8bb8a95071897"
+      "svgSha256": "5b8a2ac8a42113365b4809c575a70aef95dfa94005ec1fd9927fe3d8d2e1c82d"
     },
     {
       "id": "hero-en",
